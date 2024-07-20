@@ -68,6 +68,7 @@ main label {
     font-weight: bold;
 }
 
+main textarea,
 main input[type="text"],
 main input[type="email"],
 main input[type="url"] {
