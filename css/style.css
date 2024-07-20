@@ -62,15 +62,15 @@ h1 {
 }
 
 /* Form Styles */
-form label {
+main label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="url"] {
+main input[type="text"],
+main input[type="email"],
+main input[type="url"] {
     width: calc(100% - 20px); /* Ensure inputs take full width minus padding */
     padding: 10px;
     margin-bottom: 20px;
@@ -78,13 +78,13 @@ form input[type="url"] {
     border-radius: 4px;
 }
 
-.form-group {
+.main-group {
     margin-bottom: 20px;
 }
 
-.form-group input[type="text"]::placeholder,
-.form-group input[type="email"]::placeholder,
-.form-group input[type="url"]::placeholder {
+.main-group input[type="text"]::placeholder,
+.main-group input[type="email"]::placeholder,
+.main-group input[type="url"]::placeholder {
     color: #aaa;
 }
 
@@ -146,7 +146,7 @@ footer p {
     .note {
         font-size: 1em;
     }
-    form label {
+    main label {
         font-size: 1em;
     }
     button.button {
@@ -165,7 +165,7 @@ footer p {
     .note {
         font-size: 0.9em;
     }
-    form label {
+    main label {
         font-size: 0.9em;
     }
     button.button {
@@ -175,4 +175,47 @@ footer p {
     #generatedCode h2 {
         font-size: 1em;
     }
+}
+
+.special-nav {
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+    white-space: nowrap; /* Prevents items from wrapping to the next line */
+    background-color: #333; /* Adjust to your design */
+    padding: 10px;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #888 #333; /* For Firefox */
+}
+
+.special-nav::-webkit-scrollbar {
+    height: 6px; /* Height of horizontal scrollbar */
+}
+
+.special-nav::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+}
+
+.special-nav::-webkit-scrollbar-track {
+    background: #333; /* Background of the scrollbar track */
+}
+
+.special-nav ul {
+    display: flex; /* Aligns items in a row */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove default list style */
+}
+
+.special-nav li {
+    flex: 0 0 auto; /* Prevents items from shrinking */
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.special-nav a {
+    color: white; /* Adjust to your design */
+    text-decoration: none; /* Remove text underline */
+}
+
+.special-nav a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
 }
