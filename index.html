@@ -1,1 +1,88 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Privacy Policy Generator Tool</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <meta name="description" content="Generate a Privacy Policy page for WordPress, Blogger, or any other website platform easily with our Free Privacy Policy Generator Tool.">
+    <meta name="keywords" content="Privacy Policy Generator, Free Privacy Policy, Website Privacy Policy, Generate Privacy Policy">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://freeprivacypolicygeneratortool.github.io">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Free Privacy Policy Generator Tool",
+      "url": "https://freeprivacypolicygeneratortool.github.io",
+      "description": "Generate a Privacy Policy page for WordPress, Blogger, or any other website platform easily with our Free Privacy Policy Generator Tool.",
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "@id": "https://freeprivacypolicygeneratortool.github.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Free Privacy Policy Generator Tool",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://freeprivacypolicygeneratortool.github.io/logo.png"
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+                <li><a href="#terms-of-service">Terms of Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="content">
+            <h1>Free Privacy Policy Generator Tool</h1>
+            <p class="note">Generate a Privacy Policy page for WordPress, Blogger, or any other website platform.</p>
+            <form>
+                <label for="companyName">Company Name:</label>
+                <input id="companyName" placeholder="Example: EduCodeLab LLC" required type="text" />
+                <label for="websiteName">Website Name:</label>
+                <input id="websiteName" placeholder="Example: EduCodeLab" required type="text" />
+                <label for="websiteURL">Website URL:</label>
+                <input id="websiteURL" placeholder="Example: https://www.educodelab.xyz" required type="text" />
+                <label for="email">Email Address:</label>
+                <input id="email" placeholder="Example: contact@educodelab.xyz" required type="email" />
+                <label for="countryName">Country Name:</label>
+                <input id="countryName" placeholder="Example: India" required type="text" />
+                <label for="stateName">State Name:</label>
+                <input id="stateName" placeholder="Example: Maharashtra" required type="text" />
+                <div class="btnF">
+                    <button class="button" onclick="generatePrivacyPolicyPage()" type="button">Generate Privacy Policy Section</button>
+                </div>
+            </form>
+            <div class="hidden" id="generatedCode">
+                <h2>Generated HTML Code:</h2>
+                <textarea id="htmlCode" readonly rows="20" style="resize: none;"></textarea>
+                <div class="btnF">
+                    <button class="button" onclick="copyGeneratedCode()">Copy HTML Code</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Free Privacy Policy Generator Tool. All rights reserved.</p>
+        <hr class="footer-divider">
+        <nav>
+            <ul>
+                <li><a href="#privacy-policy">Privacy Policy</a></li>
+                <li><a href="#terms-of-service">Terms of Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
