@@ -68,7 +68,6 @@ main label {
     font-weight: bold;
 }
 
-main textarea,
 main input[type="text"],
 main input[type="email"],
 main input[type="url"] {
@@ -219,4 +218,16 @@ footer p {
 
 .special-nav a:hover {
     text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+textarea {
+  width: 100%; /* Make the textarea width 100% of its container */
+  min-height: 150px; /* Set a minimum height for the textarea */
+  padding: 10px; /* Add padding inside the textarea for better readability */
+  box-sizing: border-box; /* Include padding and border in the textarea's total width/height */
+  resize: vertical; /* Allow vertical resizing of the textarea */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  font-family: inherit; /* Inherit the font-family from the parent element */
+  font-size: 16px; /* Set a reasonable font size */
+  line-height: 1.5; /* Set line height for better readability */
 }
