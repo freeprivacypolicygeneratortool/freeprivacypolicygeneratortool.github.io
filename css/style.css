@@ -8,6 +8,10 @@ body {
     line-height: 1.6;
 }
 
+textarea {
+    widht: 80%;
+}
+
 /* Header and Footer */
 header,
 footer {
