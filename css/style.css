@@ -186,45 +186,17 @@ footer p {
   }
 }
 
-.special-nav {
-  overflow-x: auto;
-  white-space: nowrap;
-  background-color: #333;
-  padding: 10px;
-  scrollbar-width: thin;
-  scrollbar-color: #888 #333;
+.navbar {
+    text-align: center; /* Center the navbar */
 }
 
-.special-nav::-webkit-scrollbar {
-  height: 6px;
+.navbar a {
+    display: inline; /* Display links inline */
+    margin: 0 10px; /* Optional: Add some spacing between links */
+    text-decoration: none; /* Remove underlines */
+    color: #000; /* Set link color */
 }
 
-.special-nav::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-.special-nav::-webkit-scrollbar-track {
-  background: #333;
-}
-
-.special-nav ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.special-nav li {
-  flex: 0 0 auto;
-  margin-right: 20px;
-}
-
-.special-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.special-nav a:hover {
-  text-decoration: underline;
+.navbar a:hover {
+    text-decoration: underline; /* Optional: Underline links on hover */
 }
