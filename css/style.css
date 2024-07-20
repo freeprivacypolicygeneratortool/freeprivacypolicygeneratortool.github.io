@@ -69,8 +69,9 @@ form label {
 }
 
 form input[type="text"],
-form input[type="email"] {
-    width: calc(100% - 20px);
+form input[type="email"],
+form input[type="url"] {
+    width: calc(100% - 20px); /* Ensure inputs take full width minus padding */
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -81,7 +82,9 @@ form input[type="email"] {
     margin-bottom: 20px;
 }
 
-.form-group input[type="text"]::placeholder {
+.form-group input[type="text"]::placeholder,
+.form-group input[type="email"]::placeholder,
+.form-group input[type="url"]::placeholder {
     color: #aaa;
 }
 
