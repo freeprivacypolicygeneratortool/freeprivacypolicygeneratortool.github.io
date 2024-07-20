@@ -198,14 +198,25 @@ footer p {
     display: inline-block; /* Keep items in a single line */
 }
 
-.navbar a {
+.nav-items ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to keep items inline */
+}
+
+.nav-items li {
+    display: inline; /* Display list items inline */
+}
+
+.nav-items a {
     display: inline-block; /* Display links inline */
     padding: 14px 20px; /* Add some padding */
     text-decoration: none; /* Remove underlines */
     color: #000; /* Set link color */
 }
 
-.navbar a:hover {
+.nav-items a:hover {
     background-color: #ddd; /* Optional: Change background on hover */
     color: #000; /* Optional: Change text color on hover */
 }
