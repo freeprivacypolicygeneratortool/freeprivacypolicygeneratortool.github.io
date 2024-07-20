@@ -188,10 +188,12 @@ footer p {
 
 .navbar {
     overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Disable vertical scrolling */
     white-space: nowrap; /* Prevent line breaks */
     width: 100%; /* Ensure the navbar takes the full width */
     background-color: #fff; /* Background color for the navbar */
     border-bottom: 1px solid #ccc; /* Optional: Add a bottom border */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .nav-items {
