@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    word-break: break-word;
 }
 
 /* Header and Footer */
@@ -15,6 +16,7 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    word-break: break-word;
 }
 
 header nav ul,
@@ -37,6 +39,7 @@ footer nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s;
+    word-break: break-word;
 }
 
 header nav ul li a:hover,
@@ -48,12 +51,14 @@ footer nav ul li a:hover {
 /* Main Content */
 main {
     padding: 20px;
+    word-break: break-word;
 }
 
 section {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    word-break: break-word;
 }
 
 /* Headings */
@@ -62,12 +67,14 @@ h1 {
     color: #4CAF50;
     font-size: 2em;
     margin-bottom: 20px;
+    word-break: break-word;
 }
 
 .note {
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 20px;
+    word-break: break-word;
 }
 
 /* Form Styles */
@@ -75,6 +82,7 @@ main label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+    word-break: break-word;
 }
 
 main input[type="text"],
@@ -91,6 +99,7 @@ textarea {
     line-height: 1.5;
     transition: border-color 0.2s;
     box-sizing: border-box;
+    word-break: break-word;
 }
 
 main input[type="text"]:focus,
@@ -98,14 +107,17 @@ main input[type="email"]:focus,
 main input[type="url"]:focus,
 textarea:focus {
     border-color: #4CAF50;
+    word-break: break-word;
 }
 
 .main-group input::placeholder {
     color: #aaa;
+    word-break: break-word;
 }
 
 .btnF {
     text-align: center;
+    word-break: break-word;
 }
 
 button.button {
@@ -117,6 +129,7 @@ button.button {
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s;
+    word-break: break-word;
 }
 
 button.button:hover {
@@ -126,11 +139,13 @@ button.button:hover {
 /* Generated Code Section */
 #generatedCode {
     margin-top: 20px;
+    word-break: break-word;
 }
 
 #generatedCode h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    word-break: break-word;
 }
 
 #htmlCode {
@@ -141,12 +156,14 @@ button.button:hover {
     resize: none;
     height: 200px;
     box-sizing: border-box;
+    word-break: break-word;
 }
 
 /* Footer */
 footer p {
     text-align: center;
     margin: 10px 0;
+    word-break: break-word;
 }
 
 /* Divider */
@@ -155,6 +172,7 @@ footer p {
     height: 1px;
     background: #e0e0e0;
     margin: 10px 0;
+    word-break: break-word;
 }
 
 /* Responsive Styles */
@@ -210,16 +228,19 @@ footer p {
     overflow-x: auto;
     white-space: nowrap;
     text-align: center;
+    word-break: break-word;
 }
 
 .navbar ul {
     display: inline-block;
     padding: 0;
     margin: 0;
+    word-break: break-word;
 }
 
 .navbar li {
     display: inline;
+    word-break: break-word;
 }
 
 .navbar a {
@@ -229,12 +250,15 @@ footer p {
     padding: 14px 20px;
     text-decoration: none;
     transition: background-color 0.3s;
+    word-break: break-word;
 }
 
 .navbar a:hover {
     background-color: #575757;
+    word-break: break-word;
 }
 
 .hidden {
     display: none;
+    word-break: break-word;
 }
