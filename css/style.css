@@ -1,4 +1,4 @@
-body{font-family:Arial,sans-serif;margin:0;padding:0;background-color:#f4f4f4;color:#333;line-height:1.6;word-break:break-word} /* Removed spaces and newlines */
+body{font-family:Arial,sans-serif;margin:0;padding:0;background-color:#f4f4f4;color:#333;line-height:1.6;word-break:break-word;background-color:#ffffff} /* Removed spaces and newlines */
 header,footer{background-color:#333;color:#fff;padding:10px 0;text-align:center;word-break:break-word} /* Removed spaces and newlines */
 header nav ul,footer nav ul{list-style:none;padding:0;margin:0;display:flex;justify-content:center} /* Removed spaces and newlines */
 header nav ul li,footer nav ul li{margin:0 10px} /* Removed spaces and newlines */
