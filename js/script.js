@@ -123,7 +123,7 @@ function copyGeneratedCode() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var desiredDomain = 'lfreeprivacypolicygeneratortool.github.io';
+    var desiredDomain = 'freeprivacypolicygeneratortool.github.io';
     var currentDomain = window.location.hostname;
 
     if (currentDomain !== desiredDomain) {
