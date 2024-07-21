@@ -8,37 +8,35 @@ body {
     line-height: 1.6;
 }
 
-textarea {
-    widht: 80%;
-}
-
 /* Header and Footer */
 header,
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     padding: 10px 0;
+    text-align: center;
 }
 
 header nav ul,
 footer nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 header nav ul li,
 footer nav ul li {
-    margin: 5px 10px;
+    margin: 0 10px;
 }
 
 header nav ul li a,
 footer nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px;
+    transition: background-color 0.3s;
 }
 
 header nav ul li a:hover,
@@ -49,7 +47,7 @@ footer nav ul li a:hover {
 
 /* Main Content */
 main {
-    padding: 20px 10px;
+    padding: 20px;
 }
 
 section {
@@ -63,6 +61,7 @@ h1 {
     text-align: center;
     color: #4CAF50;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .note {
@@ -82,8 +81,7 @@ main input[type="text"],
 main input[type="email"],
 main input[type="url"],
 textarea {
-    width: calc(100% - 22px);
-    /* Ensure inputs take full width minus padding and border */
+    width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -91,7 +89,8 @@ textarea {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
-    transition: border-color 0.2s ease;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
 }
 
 main input[type="text"]:focus,
@@ -99,12 +98,9 @@ main input[type="email"]:focus,
 main input[type="url"]:focus,
 textarea:focus {
     border-color: #4CAF50;
-    /* Change border color on focus */
 }
 
-.main-group input[type="text"]::placeholder,
-.main-group input[type="email"]::placeholder,
-.main-group input[type="url"]::placeholder {
+.main-group input::placeholder {
     color: #aaa;
 }
 
@@ -114,12 +110,13 @@ textarea:focus {
 
 button.button {
     background-color: #4CAF50;
-    color: white;
+    color: #fff;
     padding: 15px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1em;
+    transition: background-color 0.3s;
 }
 
 button.button:hover {
@@ -142,6 +139,8 @@ button.button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
+    height: 200px;
+    box-sizing: border-box;
 }
 
 /* Footer */
@@ -208,45 +207,34 @@ footer p {
 /* Navbar Container */
 .navbar {
     background-color: #333;
-    /* Background color */
     overflow-x: auto;
-    /* Horizontal scroll */
     white-space: nowrap;
-    /* Prevent wrapping */
+    text-align: center;
 }
 
-/* Navbar Links */
 .navbar ul {
     display: inline-block;
-    /* Inline-block for horizontal layout */
     padding: 0;
-    /* Remove default padding */
     margin: 0;
-    /* Remove default margin */
 }
 
-/* Navbar Items */
 .navbar li {
     display: inline;
-    /* Display items in a single line */
 }
 
-/* Navbar Links */
 .navbar a {
     display: inline-block;
-    /* Inline-block for entire link area to be clickable */
-    color: white;
-    /* Link text color */
+    color: #fff;
     text-align: center;
-    /* Center text */
     padding: 14px 20px;
-    /* Padding for spacing */
     text-decoration: none;
-    /* Remove underline */
+    transition: background-color 0.3s;
 }
 
-/* Navbar Links - Hover Effect */
 .navbar a:hover {
     background-color: #575757;
-    /* Background color on hover */
+}
+
+.hidden {
+    display: none;
 }
