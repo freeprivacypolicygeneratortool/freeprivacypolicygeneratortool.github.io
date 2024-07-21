@@ -121,3 +121,12 @@ function copyGeneratedCode() {
   document.execCommand('copy');
   alert('Copied the HTML code!');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var desiredDomain = 'lfreeprivacypolicygeneratortool.github.io';
+    var currentDomain = window.location.hostname;
+
+    if (currentDomain !== desiredDomain) {
+        document.body.style.display = 'none';
+    }
+});
