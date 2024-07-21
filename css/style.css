@@ -1,264 +1,30 @@
-/* Reset and General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    word-break: break-word;
-}
-
-/* Header and Footer */
-header,
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    word-break: break-word;
-}
-
-header nav ul,
-footer nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-header nav ul li,
-footer nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a,
-footer nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: background-color 0.3s;
-    word-break: break-word;
-}
-
-header nav ul li a:hover,
-footer nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-}
-
-/* Main Content */
-main {
-    padding: 20px;
-    word-break: break-word;
-}
-
-section {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    word-break: break-word;
-}
-
-/* Headings */
-h1 {
-    text-align: center;
-    color: #4CAF50;
-    font-size: 2em;
-    margin-bottom: 20px;
-    word-break: break-word;
-}
-
-.note {
-    text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    word-break: break-word;
-}
-
-/* Form Styles */
-main label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    word-break: break-word;
-}
-
-main input[type="text"],
-main input[type="email"],
-main input[type="url"],
-textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.5;
-    transition: border-color 0.2s;
-    box-sizing: border-box;
-    word-break: break-word;
-}
-
-main input[type="text"]:focus,
-main input[type="email"]:focus,
-main input[type="url"]:focus,
-textarea:focus {
-    border-color: #4CAF50;
-    word-break: break-word;
-}
-
-.main-group input::placeholder {
-    color: #aaa;
-    word-break: break-word;
-}
-
-.btnF {
-    text-align: center;
-    word-break: break-word;
-}
-
-button.button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s;
-    word-break: break-word;
-}
-
-button.button:hover {
-    background-color: #45a049;
-}
-
-/* Generated Code Section */
-#generatedCode {
-    margin-top: 20px;
-    word-break: break-word;
-}
-
-#generatedCode h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    word-break: break-word;
-}
-
-#htmlCode {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    height: 200px;
-    box-sizing: border-box;
-    word-break: break-word;
-}
-
-/* Footer */
-footer p {
-    text-align: center;
-    margin: 10px 0;
-    word-break: break-word;
-}
-
-/* Divider */
-.special-divider {
-    border: 0;
-    height: 1px;
-    background: #e0e0e0;
-    margin: 10px 0;
-    word-break: break-word;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .note {
-        font-size: 1em;
-    }
-
-    main label {
-        font-size: 1em;
-    }
-
-    button.button {
-        font-size: 0.9em;
-        padding: 10px 15px;
-    }
-
-    #generatedCode h2 {
-        font-size: 1.2em;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.2em;
-    }
-
-    .note {
-        font-size: 0.9em;
-    }
-
-    main label {
-        font-size: 0.9em;
-    }
-
-    button.button {
-        font-size: 0.8em;
-        padding: 10px 12px;
-    }
-
-    #generatedCode h2 {
-        font-size: 1em;
-    }
-}
-
-/* Navbar Container */
-.navbar {
-    background-color: #333;
-    overflow-x: auto;
-    white-space: nowrap;
-    text-align: center;
-    word-break: break-word;
-}
-
-.navbar ul {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    word-break: break-word;
-}
-
-.navbar li {
-    display: inline;
-    word-break: break-word;
-}
-
-.navbar a {
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-    word-break: break-word;
-}
-
-.navbar a:hover {
-    background-color: #575757;
-    word-break: break-word;
-}
-
-.hidden {
-    display: none;
-    word-break: break-word;
-}
+body{font-family:Arial,sans-serif;margin:0;padding:0;background-color:#f4f4f4;color:#333;line-height:1.6}
+header,footer{background-color:#333;color:#fff;padding:10px 0;text-align:center}
+header nav ul,footer nav ul{list-style:none;padding:0;margin:0;display:flex;justify-content:center}
+header nav ul li,footer nav ul li{margin:0 10px}
+header nav ul li a,footer nav ul li a{color:#fff;text-decoration:none;padding:10px 15px;transition:background-color .3s}
+header nav ul li a:hover,footer nav ul li a:hover{background-color:#575757;border-radius:4px}
+main{padding:20px}
+section{max-width:1000px;margin:0 auto;padding:20px}
+h1{text-align:center;color:#4CAF50;font-size:2em;margin-bottom:20px}
+.note{text-align:center;font-size:1.2em;margin-bottom:20px}
+main label{display:block;margin-bottom:10px;font-weight:bold}
+main input[type="text"],main input[type="email"],main input[type="url"],textarea{width:100%;padding:12px;margin-bottom:20px;border:1px solid #ccc;border-radius:4px;font-family:inherit;font-size:16px;line-height:1.5;transition:border-color .2s;box-sizing:border-box}
+main input[type="text"]:focus,main input[type="email"]:focus,main input[type="url"]:focus,textarea:focus{border-color:#4CAF50}
+.main-group input::placeholder{color:#aaa}
+.btnF{text-align:center}
+button.button{background-color:#4CAF50;color:#fff;padding:15px 20px;border:none;border-radius:4px;cursor:pointer;font-size:1em;transition:background-color .3s}
+button.button:hover{background-color:#45a049}
+#generatedCode{margin-top:20px}
+#generatedCode h2{font-size:1.5em;margin-bottom:10px}
+#htmlCode{width:100%;padding:10px;border:1px solid #ccc;border-radius:4px;resize:none;height:200px;box-sizing:border-box}
+footer p{text-align:center;margin:10px 0}
+.special-divider{border:0;height:1px;background:#e0e0e0;margin:10px 0}
+@media (max-width:768px){h1{font-size:1.5em}.note{font-size:1em}main label{font-size:1em}button.button{font-size:.9em;padding:10px 15px}#generatedCode h2{font-size:1.2em}}
+@media (max-width:480px){h1{font-size:1.2em}.note{font-size:.9em}main label{font-size:.9em}button.button{font-size:.8em;padding:10px 12px}#generatedCode h2{font-size:1em}}
+.navbar{background-color:#333;overflow-x:auto;white-space:nowrap;text-align:center}
+.navbar ul{display:inline-block;padding:0;margin:0}
+.navbar li{display:inline}
+.navbar a{display:inline-block;color:#fff;text-align:center;padding:14px 20px;text-decoration:none;transition:background-color .3s}
+.navbar a:hover{background-color:#575757}
+.hidden{display:none}
