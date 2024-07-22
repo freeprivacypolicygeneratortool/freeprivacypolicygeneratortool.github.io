@@ -1,5 +1,3 @@
-# README.md
-
 # My Free Privacy Policy Generator Tool
 
 Welcome to the My Free Privacy Policy Generator Tool! This tool is designed to help you quickly create a comprehensive privacy policy for your website or application. It's easy to use and free of charge.
